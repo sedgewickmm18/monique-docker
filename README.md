@@ -11,4 +11,4 @@ This repository just exists to provide docker support for monique dashboard. For
 
 Just run docker build . -t monique to create a single all-in-one container for the monique dashboard. It hosts the monique web frontend along with a monique API. Just start it with 
 
-`docker run -ti -p 8100:8100 -p 8101:8101 monique`
+`docker run -p 8100:8100 -p 8101:8101 sedgewickmm18/monique-docker`
